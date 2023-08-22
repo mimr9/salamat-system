@@ -1,0 +1,245 @@
+@font-face {
+	font-family: vazir;
+	src: url('../font/Vazir-Medium.ttf') format('truetype'),
+	url('../font/Vazir-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: lalezar;
+	src: url('../font/Lalezar-Regular.ttf') format('truetype'),
+	url('../font/Lalezar-Regular.woff') format('woff');
+}
+
+html, body {
+	height: 100%;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+/*.container-fluid .row {*/
+	/*height: 100%;*/
+/*}*/
+
+.vazir {
+	font-family: vazir, serif;
+}
+
+.lalezar {
+	font-family: lalezar, serif;	
+}
+
+.rtl {
+	text-align: right;
+}
+
+.centerize {
+	text-align: center;
+}
+
+table {
+	font-size: 15px;
+}
+
+.logo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#logo-inner a {
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.logo-inner {
+	display: block;
+	font-family: lalezar, serif;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.logo-inner h2 {
+	text-align: center;
+	color: #040603;
+}
+
+.logo-inner img {
+	width: 200px;
+}
+
+.logo h1 {
+	font-family: lalezar, serif;
+	font-size: 65px;
+}
+
+.logo img {
+	width: 300px;
+}
+
+.login .text-center {
+	padding: 10px;
+	border: 1px solid #eee;
+	background-color: #75FE00;
+	border-radius: 5px;
+	color: black;
+}
+
+.login a {
+	text-decoration: none;
+}
+
+.login h2 {
+	font-family: vazir, serif;
+	font-size: 25px;
+}
+
+.signup .text-center {
+	padding: 10px;
+	border: 1px solid #eee;
+	background-color: #384244;
+	border-radius: 5px;
+}
+
+.signup a {
+	text-decoration: none;
+}
+
+.signup h2 {
+	font-family: vazir, serif;
+	font-size: 25px;
+	color: white;
+}
+
+.login-form {
+	font-family: vazir, serif;
+	font-size: 15px;
+	text-align: right;
+}
+
+.login-form label {
+	margin-top: 10px;
+}
+
+.login-form input {
+	margin-bottom: 10px;
+}
+
+.errorM {
+	color: red;
+	font-family: vazir, serif;
+}
+
+.sidebar {
+	font-family: vazir, serif;
+	background-color: #222D33;
+}
+
+.card {
+	border: unset;
+	background-color: #F9F9FA;
+	text-align: right;
+}
+
+.card-header {
+	background-color: unset;
+}
+
+.card-body a {
+	display: block;
+	padding: 7px;
+}
+
+.card-body a i {
+	position: relative;
+       	left: 3px;
+}
+
+.first-page {
+	width: 100%;
+	height: 100%;
+}
+
+.first-page img {
+	vertical-align: middle;	
+	width: 35%;
+	margin-top: 30px;
+}
+
+.padding-set {
+	padding-right: unset;
+	padding-left: unset;
+}
+
+.report {
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+
+.former {
+	text-align: right;
+	margin-top: 20px;
+}
+
+label {
+	margin-top: 15px;
+}
+
+#collapseOne.collapse a,
+#collapseTwo.collapse a,
+#collapseThree.collapse a,
+#collapseFive.collapse a,
+#collapseFour.collapse a {
+	 color: white;
+}
+
+#collapseOne.collapse a.disabled,
+#collapseTwo.collapse a.disabled,
+#collapseThree.collapse a.disabled,
+#collapseFive.collapse a.disabled,
+#collapseFour.collapse a.disabled {
+	color: #6c757d
+}
+
+.button-default {
+	font-family: vazir, serif;
+}
+
+.table td, .table th {
+	vertical-align: middle;
+}
+
+.profile-img {
+	margin: 15px;
+}
+
+.avatar-profile img {
+	width: 128px;
+	border-radius: 50%;	
+	border: 2px solid white;
+}
+
+.nav-link {
+	padding: 0 1rem;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+	body {
+		overflow-x: hidden;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		overflow-x: hidden;
+	}
+}
